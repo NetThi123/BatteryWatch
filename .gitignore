@@ -1,0 +1,52 @@
+# Build output. The binary embeds local paths such as /Users/<you>/...
+build/
+*.app
+*.dSYM/
+*.o
+
+# BatteryWatch history logs: battery health, cycles, charge habits, running apps.
+# They normally live in ~/Library/Application Support/BatteryWatch, but stay out if copied here.
+samples*.csv
+events*.log
+*.csv
+*.log
+
+# Dumps of this Mac's hardware info (battery serial, model, manufacture date)
+ioreg*.txt
+system_profiler*.txt
+*.spx
+pmset*.txt
+
+# Screenshots and recordings of the popover (show your battery stats and apps)
+Screenshot*.png
+Screen Recording*.mov
+*.png
+*.mov
+
+# The Launch at Login file generated on your Mac
+com.local.batterywatch.plist
+
+# macOS metadata (folder layout and Finder info)
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode / SwiftPM per-user state (username, window layout, breakpoints)
+xcuserdata/
+*.xcuserstate
+DerivedData/
+.build/
+.swiftpm/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Secrets and signing material
+.env
+.env.*
+*.p12
+*.cer
+*.mobileprovision
