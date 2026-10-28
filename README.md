@@ -4,11 +4,13 @@ A small menu bar app for MacBooks that shows how much power your Mac is using ri
 
 ## Screenshots
 
-<p align="center">
+![BatteryWatch popover](docs/images/menu-bar.png).
+![BatteryWatch popover](docs/images/popover.png).
+
+<!-- <p align="center">
   <img src="docs/images/menu-bar.png" alt="Power draw in the menu bar" width="220"><br>
   <img src="docs/images/popover.png" alt="BatteryWatch popover" width="360">
-  <img src="docs/images/menu.png" alt="The ⋯ menu" width="360">
-</p>
+</p> -->
 
 ## Who can use it
 
